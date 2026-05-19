@@ -1,3 +1,10 @@
+import img489 from './assets/CASESR489.png'
+import img482 from './assets/CACESR482.png'
+import img486 from './assets/CASESR486.png'
+import img485 from './assets/CACESR485.png'
+import img490 from './assets/CASESR490.png'
+import img483 from './assets/CASESR483.png'
+import img484 from './assets/CACESR484.png'
 export const CACES_FORMATIONS = [
   { id: 1, code: 'R489', title: 'CACES® R489', subtitle: 'Chariots élévateurs', prix: 'à partir de 459€', duree: '3 à 5 jours', validite: '5 ans', img: '/src/assets/CASESR489.png', desc: 'Formation à la conduite des chariots automoteurs à conducteur porté. Catégories 1 à 6. Initiale ou recyclage.' },
   { id: 2, code: 'R482', title: 'CACES® R482', subtitle: 'Engins de chantier', prix: 'à partir de 759€', duree: '3 à 6 jours', validite: '10 ans', img: '/src/assets/vert1.png', desc: 'Pelles, chargeuses, bulldozers, compacteurs. Catégories A, B1, C1, D, F, G. Validité 10 ans.' },

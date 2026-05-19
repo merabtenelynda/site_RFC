@@ -1,7 +1,16 @@
 import { useState, useEffect, useRef } from 'react'
 import { Link } from 'react-router-dom'
 import { CACES_FORMATIONS, TESTIMONIALS, STATS, STEPS, FAQ, SLIDES } from '../data.js'
-
+import hero from '../assets/hero.png'
+import apropos from '../assets/apropos.jpg'
+import formations from '../assets/formations.jpg'
+import pratique from '../assets/pratique.jpg'
+import examen from '../assets/examen.png'
+import certificat from '../assets/certificat.png'
+import vert1 from '../assets/vert1.png'
+import vert2 from '../assets/vert2.png'
+import vert3 from '../assets/vert3.png'
+import vert4 from '../assets/vert4.png'
 const FACTS = [
   { num: '01', title: 'Formation théorique', desc: 'Dure généralement une journée (7h). Elle se déroule en groupe dans une salle de formation. Réglementation, sécurité, responsabilités.', img: '/src/assets/formations.jpg' },
   { num: '02', title: 'Formation pratique', desc: 'Dure entre 1 et 3 jours sur aire d\'exercice spécifique dotée des équipements requis. Groupes de 6 personnes maximum.', img: '/src/assets/pratique.jpg' },

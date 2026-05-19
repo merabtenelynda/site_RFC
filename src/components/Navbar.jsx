@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import { Link, useLocation } from 'react-router-dom'
+import logo from '../assets/logo.png'
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false)
@@ -29,7 +30,8 @@ export default function Navbar() {
           <li><Link to="/" className={location.pathname === '/' ? 'active' : ''}>Accueil</Link></li>
           <li><Link to="/services" className={location.pathname === '/services' ? 'active' : ''}>Formations</Link></li>
           <li><Link to="/about" className={location.pathname === '/about' ? 'active' : ''}>À propos</Link></li>
-{/* <li><Link to="/team" className={location.pathname === '/team' ? 'active' : ''}>Équipe</Link></li> */}          <li><Link to="/contact" className={location.pathname === '/contact' ? 'active' : ''}>Contact</Link></li>
+{/* <li><Link to="/team" className={location.pathname === '/team' ? 'active' : ''}>Équipe</Link></li> */}     
+     <li><Link to="/contact" className={location.pathname === '/contact' ? 'active' : ''}>Contact</Link></li>
         </ul>
         <Link to="/contact" className="btn-primary" style={{ fontSize: 13, padding: '10px 20px', marginLeft: 16, display: window.innerWidth < 768 ? 'none' : 'inline-block' }}>
           Obtenir un devis
