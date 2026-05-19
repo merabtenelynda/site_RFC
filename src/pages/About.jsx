@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import { STATS } from '../data.js'
+import apropos from '../assets/apropos.jpg'
 
 export default function About() {
   return (
@@ -14,7 +15,7 @@ export default function About() {
         <div className="container">
           <div className="about-grid">
             <div className="about-img-wrap">
-              <img className="about-img" src="/src/assets/apropos.jpg" alt="FRC Technique" />
+              <img className="about-img" src={apropos} alt="FRC Technique" />
             
             </div>
             <div>
