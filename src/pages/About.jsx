@@ -87,7 +87,7 @@ export default function About() {
               </div>
             </div>
             <div className="about-img-wrap">
-              <img className="about-img" src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&q=80" alt="formation" />
+              <img className="about-img" src="https://i.pinimg.com/1200x/12/37/ad/1237ad0c5aa2f0b13ee102343068a33e.jpg" alt="formation" />
               <div className="exp-badge">
                 <span className="num">98%</span>
                 <span className="lbl">Réussite</span>
