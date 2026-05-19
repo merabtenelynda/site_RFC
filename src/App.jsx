@@ -10,7 +10,7 @@ import Team from './pages/Team'
 import Contact from './pages/Contact'
 import './index.css'
 import MentionsLegales from './pages/MentionsLegales.jsx'
-import CGV from './pages/CGV.jsx'
+import CGV from './pages/Cgv.jsx'
 import Confidentialite from './pages/Confidentialite.jsx'
 
 function BackToTop() {
