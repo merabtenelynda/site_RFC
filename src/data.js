@@ -1,18 +1,20 @@
 import img489 from './assets/CASESR489.png'
-import img482 from './assets/CACESR482.png'
-import img486 from './assets/CASESR486.png'
-import img485 from './assets/CACESR485.png'
-import img490 from './assets/CASESR490.png'
-import img483 from './assets/CASESR483.png'
-import img484 from './assets/CACESR484.png'
+import img482 from './assets/vert1.png'
+import img486 from './assets/vert5.png'
+import img485 from './assets/vert4.png'
+import img490 from './assets/vert6.png'
+import img483 from './assets/vert2.png'
+import img484 from './assets/vert3.png'
+import fond from './assets/fond.png'
+
 export const CACES_FORMATIONS = [
-  { id: 1, code: 'R489', title: 'CACES® R489', subtitle: 'Chariots élévateurs', prix: 'à partir de 459€', duree: '3 à 5 jours', validite: '5 ans', img: '/src/assets/CASESR489.png', desc: 'Formation à la conduite des chariots automoteurs à conducteur porté. Catégories 1 à 6. Initiale ou recyclage.' },
-  { id: 2, code: 'R482', title: 'CACES® R482', subtitle: 'Engins de chantier', prix: 'à partir de 759€', duree: '3 à 6 jours', validite: '10 ans', img: '/src/assets/vert1.png', desc: 'Pelles, chargeuses, bulldozers, compacteurs. Catégories A, B1, C1, D, F, G. Validité 10 ans.' },
-  { id: 3, code: 'R486', title: 'CACES® R486', subtitle: 'Nacelles (PEMP)', prix: 'à partir de 629€', duree: '2 à 4 jours', validite: '5 ans', img: '/src/assets/vert5.png', desc: 'Plateforme Élévatrice Mobile de Personnes. Catégories A, B, C. Travaux en hauteur sécurisés.' },
-  { id: 4, code: 'R485', title: 'CACES® R485', subtitle: 'Gerbeurs', prix: 'à partir de 399€', duree: '2 à 3 jours', validite: '5 ans', img: '/src/assets/vert4.png', desc: 'Gerbeurs à conducteur accompagnant. Manutention en entrepôt et logistique.' },
-  { id: 5, code: 'R490', title: 'CACES® R490', subtitle: 'Grues de chargement', prix: 'à partir de 990€', duree: '3 à 5 jours', validite: '5 ans', img: '/src/assets/vert6.png', desc: 'Grues auxiliaires de chargement montées sur véhicule. Levage et manutention de charges.' },
-  { id: 6, code: 'R483', title: 'CACES® R483', subtitle: 'Grues mobiles', prix: 'à partir de 990€', duree: '3 à 5 jours', validite: '5 ans', img: '/src/assets/vert2.png', desc: 'Conduite en sécurité des grues mobiles automotrices. Chantiers BTP et industrie.' },
-  { id: 7, code: 'R484', title: 'CACES® R484', subtitle: 'Ponts roulants', prix: 'à partir de 490€', duree: '2 à 3 jours', validite: '5 ans', img: '/src/assets/vert3.png', desc: 'Conduite des ponts roulants et portiques. Catégories 1 et 2. Industrie et logistique.' },
+  { id: 1, code: 'R489', title: 'CACES® R489', subtitle: 'Chariots élévateurs', prix: 'à partir de 459€', duree: '3 à 5 jours', validite: '5 ans', img: img489, desc: 'Formation à la conduite des chariots automoteurs à conducteur porté. Catégories 1 à 6. Initiale ou recyclage.' },
+  { id: 2, code: 'R482', title: 'CACES® R482', subtitle: 'Engins de chantier', prix: 'à partir de 759€', duree: '3 à 6 jours', validite: '10 ans', img: img482, desc: 'Pelles, chargeuses, bulldozers, compacteurs. Catégories A, B1, C1, D, F, G. Validité 10 ans.' },
+  { id: 3, code: 'R486', title: 'CACES® R486', subtitle: 'Nacelles (PEMP)', prix: 'à partir de 629€', duree: '2 à 4 jours', validite: '5 ans', img: img486, desc: 'Plateforme Élévatrice Mobile de Personnes. Catégories A, B, C. Travaux en hauteur sécurisés.' },
+  { id: 4, code: 'R485', title: 'CACES® R485', subtitle: 'Gerbeurs', prix: 'à partir de 399€', duree: '2 à 3 jours', validite: '5 ans', img: img485, desc: 'Gerbeurs à conducteur accompagnant. Manutention en entrepôt et logistique.' },
+  { id: 5, code: 'R490', title: 'CACES® R490', subtitle: 'Grues de chargement', prix: 'à partir de 990€', duree: '3 à 5 jours', validite: '5 ans', img: img490, desc: 'Grues auxiliaires de chargement montées sur véhicule. Levage et manutention de charges.' },
+  { id: 6, code: 'R483', title: 'CACES® R483', subtitle: 'Grues mobiles', prix: 'à partir de 990€', duree: '3 à 5 jours', validite: '5 ans', img: img483, desc: 'Conduite en sécurité des grues mobiles automotrices. Chantiers BTP et industrie.' },
+  { id: 7, code: 'R484', title: 'CACES® R484', subtitle: 'Ponts roulants', prix: 'à partir de 490€', duree: '2 à 3 jours', validite: '5 ans', img: img484, desc: 'Conduite des ponts roulants et portiques. Catégories 1 et 2. Industrie et logistique.' },
 ]
 
 export const SECURITE_FORMATIONS = [
@@ -55,14 +57,6 @@ export const FAQ = [
 ]
 
 export const SLIDES = [
-  { 
-    title: 'Obtenez votre CACES® en 3 à 5 jours !', 
-    sub: 'FRC Technique — Centre de formation certifié Qualiopi', 
-    img: '/src/assets/fond.png' 
-  },
-  { 
-    title: 'Formations 100% finançables CPF · OPCO · France Travail', 
-    sub: 'Groupes de 6 personnes max · Formateurs certifiés · 98% de réussite', 
-    img: '/src/assets/fond.png' 
-  },
+  { title: 'Obtenez votre CACES® en 3 à 5 jours !', sub: 'FRC Technique — Centre de formation certifié Qualiopi', img: fond },
+  { title: 'Formations 100% finançables CPF · OPCO · France Travail', sub: 'Groupes de 6 personnes max · Formateurs certifiés · 98% de réussite', img: fond },
 ]

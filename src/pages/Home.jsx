@@ -12,10 +12,10 @@ import vert2 from '../assets/vert2.png'
 import vert3 from '../assets/vert3.png'
 import vert4 from '../assets/vert4.png'
 const FACTS = [
-  { num: '01', title: 'Formation théorique', desc: 'Dure généralement une journée (7h). Elle se déroule en groupe dans une salle de formation. Réglementation, sécurité, responsabilités.', img: '/src/assets/formations.jpg' },
-  { num: '02', title: 'Formation pratique', desc: 'Dure entre 1 et 3 jours sur aire d\'exercice spécifique dotée des équipements requis. Groupes de 6 personnes maximum.', img: '/src/assets/pratique.jpg' },
-  { num: '03', title: 'Passage du CACES®', desc: 'Validation des compétences théoriques et pratiques. Note minimale de 70/100 requise. Certificat valable 5 à 10 ans.', img: '/src/assets/examen.png' },
-  { num: '04', title: 'Obtention du certificat', desc: 'Après validation, vous recevez votre certificat CACES® sous quelques jours. Valable 5 à 10 ans selon la catégorie.', img: '/src/assets/certificat.png' },
+  { num: '01', title: 'Formation théorique', desc: 'Dure généralement une journée (7h). Elle se déroule en groupe dans une salle de formation. Réglementation, sécurité, responsabilités.', img: formations },
+  { num: '02', title: 'Formation pratique', desc: 'Dure entre 1 et 3 jours sur aire d\'exercice spécifique dotée des équipements requis. Groupes de 6 personnes maximum.', img: pratique },
+  { num: '03', title: 'Passage du CACES®', desc: 'Validation des compétences théoriques et pratiques. Note minimale de 70/100 requise. Certificat valable 5 à 10 ans.', img: examen },
+  { num: '04', title: 'Obtention du certificat', desc: 'Après validation, vous recevez votre certificat CACES® sous quelques jours. Valable 5 à 10 ans selon la catégorie.', img: certificat },
 ]
 function Hero() {
   const [idx, setIdx] = useState(0)
@@ -91,9 +91,7 @@ export default function Home() {
         <div className="container">
           <div className="about-grid">
             <div className="about-img-wrap">
-              <img className="about-img" src="/src/assets/apropos.jpg" alt="FRC Technique" />
-              
-            </div>
+<img className="about-img" src={apropos} alt="FRC Technique" />            </div>
             <div>
               <div className="section-tag">
                 <div>

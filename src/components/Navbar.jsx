@@ -21,7 +21,7 @@ export default function Navbar() {
     <nav className={`navbar${visible ? ' visible' : ''}${scrolled ? ' scrolled' : ''}`}>
       <div className="navbar-inner">
         <Link to="/" className="navbar-brand">
-          <img src="/src/assets/logo.png" alt="FRC Technique" style={{ height: 80, width: 'auto' }} />
+            <img src="/src/assets/logo.png" alt="FRC Technique" style={{ height: 80, width: 'auto' }} />
         </Link>
         <button className={`hamburger${open ? ' open' : ''}`} onClick={() => setOpen(!open)}>
           <span /><span /><span />
